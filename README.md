@@ -25,7 +25,7 @@ It is important to note that the naive solution is numerically unstable. As such
 
 To use the pricing solvers, consult the example script provided. The following values are relevant:
 - `N` - number of grid points in time dimension
-- `M` - number of grid points in underlying price dimension
+- `M` - number of grid points in space dimension
 - `K` - strike price
 - `T` - time until maturity
 - `volatility` - the volatility of the underlying
