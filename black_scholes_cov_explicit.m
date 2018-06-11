@@ -1,6 +1,6 @@
 function [t_vals,S_vals,surface] = black_scholes_cov_explicit(N,M,Smin,Smax,T,K,volatility,r,d,is_call)
 
-% create empty surfaceace
+% create empty surface
 surface = zeros(1+N,1+M);
 
 % undergo change of variables to tau and x:

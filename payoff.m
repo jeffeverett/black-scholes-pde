@@ -1,5 +1,3 @@
-% Written by group.
-
 function out = payoff(S,K,is_call)
 
 if is_call

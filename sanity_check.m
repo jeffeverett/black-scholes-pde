@@ -1,3 +1,4 @@
+% Define initial constants
 N = 4000;
 M = 1000;
 Smin = 0.4; % must be greater than 0 to ensure ln(Smin/K) is defined
