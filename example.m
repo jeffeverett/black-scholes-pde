@@ -32,4 +32,4 @@ title('Generated Surface')
 S_check = 30;
 t_check = 0.25;
 point = interp2(S_vals,t_vals,surface,S_check,t_check);
-fprintf('Interpolated point has coordinates (%f, %f)', point(1), point(2));
+fprintf('At S=%f and t=%f, dividend price is %f', S_check, t_check, point);
