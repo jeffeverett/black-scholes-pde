@@ -35,5 +35,5 @@ To use the pricing solvers, consult the example script provided. The following v
 
 As we are using an explicit method for a PDE that has been transformed into a heat equation, established
 results tell us that we need *s* = *k*/*h*^2 <= 0.5, where *k* is the step-size in time and *h* is the step-size in space.
-The value of $s$ is printed out when the solving function is invoked; if the value is less
+The value of *s* is printed out when the solving function is invoked; if the value is less
 than 0.5, you must change the parameter values to guarantee stability.
